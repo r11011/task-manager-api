@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const Task = require("./models/Task"); // Import Task Model
+console.log("Small change to test Git commits");
 
 
 const app = express();
